@@ -1,3 +1,14 @@
+//=================================================
+// Isabella Rivera and Joel Singh
+// January 2025
+// projecttwo.cpp
+// This program attempts to determine if soprano gets
+// caught by either of his two owners as he tries to
+// jump onto the counter. The program reads input data
+// about the time of his hop, and the time each of the
+// owners spend in and out of kitchen. 
+//=================================================
+
 #include <iostream>
 using namespace std;
 bool determineHopSuccess(int p1_in, int p1_out, int p2_in, int p2_out, int t_hop);
