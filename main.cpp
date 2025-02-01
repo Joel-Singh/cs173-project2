@@ -36,7 +36,7 @@ bool determineHopSuccess(int p1_in, int p1_out, int p2_in, int p2_out, int t_hop
     bool failure1 = false;
     bool failure2 = false;
 
-	//Check if someone is in the kitchen
+    //Check if someone is in the kitchen
     if (sopranoLoc1 < p1_in){
         failure1 = true;
     }
